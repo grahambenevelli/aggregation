@@ -1,3 +1,4 @@
+build/
 *.class
 
 # Mobile Tools for Java (J2ME)
@@ -12,4 +13,4 @@
 hs_err_pid*
 
 #intellij
-*.ini
+*.inl

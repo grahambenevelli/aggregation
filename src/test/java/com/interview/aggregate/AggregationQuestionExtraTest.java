@@ -5,6 +5,7 @@ import com.google.common.collect.Lists;
 import com.interview.aggregate.impl.BasicMetric;
 import com.interview.aggregate.impl.BasicUser;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.List;
@@ -44,6 +45,7 @@ public class AggregationQuestionExtraTest {
 	 * [ [ 2, ‘bob'] -> [clicks -> 23, likes - 56], [ 1, ‘sally'] -> [clicks -> 390, likes -> 108]
 	 */
 
+	@Ignore
 	@Test
 	public void testAggregate() throws Exception {
 		List<User> users = Lists.<User>newArrayList(
