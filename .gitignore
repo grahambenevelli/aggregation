@@ -1,4 +1,6 @@
 build/
+.gradle/
+.idea/
 *.class
 
 # Mobile Tools for Java (J2ME)
@@ -13,4 +15,4 @@ build/
 hs_err_pid*
 
 #intellij
-*.inl
+*.iml
