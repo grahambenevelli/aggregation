@@ -1,2 +1,11 @@
-rootProject.name = 'Interview'
+rootProject.name = 'interview'
 
+rootDir.eachDirRecurse {
+    def f = new File(it, 'build.gradle')
+    if (f.exists() && f.parentFile.name != 'buildSrc') {
+        def projectPath = rootDir.toURI().relativize(f.parentFile.toURI()).toString()
+        def projectName = ":${rootProject.name}-${projectPath[0..-2].replaceAll('/', '-')}"
+        include(projectName)
+        project(projectName).projectDir = it
+    }
+}
