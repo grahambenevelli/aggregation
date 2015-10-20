@@ -10,9 +10,9 @@ import com.google.common.collect.Sets;
 import com.interview.aggregate.impl.TwoPointImpl;
 
 public class RectangleQuestionTest {
-	
+
 	private RectangleQuestion rectangleQuestion;
-	
+
 	@Before
 	public void setup() {
 		rectangleQuestion = new RectangleQuestion();
@@ -49,7 +49,7 @@ public class RectangleQuestionTest {
 	public void testSkyline2PointsNegatives() throws Exception {
 		Set<Point> points = Sets.newHashSet(
 				TwoPointImpl.intialize(1, 1),
-				TwoPointImpl.intialize(2, 2)
+				TwoPointImpl.intialize(-1, -1)
 		);
 
 		long result = rectangleQuestion.largestRectangle(points);
@@ -68,7 +68,7 @@ public class RectangleQuestionTest {
 	public void testSkyline2PointsLine() throws Exception {
 		Set<Point> points = Sets.newHashSet(
 				TwoPointImpl.intialize(1, 1),
-				TwoPointImpl.intialize(2, 2)
+				TwoPointImpl.intialize(1, 10)
 		);
 
 		long result = rectangleQuestion.largestRectangle(points);
@@ -90,7 +90,8 @@ public class RectangleQuestionTest {
 	public void testSkyline3Points() throws Exception {
 		Set<Point> points = Sets.newHashSet(
 				TwoPointImpl.intialize(1, 1),
-				TwoPointImpl.intialize(2, 2)
+				TwoPointImpl.intialize(2, 2),
+				TwoPointImpl.intialize(3, 4)
 		);
 
 		long result = rectangleQuestion.largestRectangle(points);
@@ -116,7 +117,9 @@ public class RectangleQuestionTest {
 	public void testSkyline4Points() throws Exception {
 		Set<Point> points = Sets.newHashSet(
 				TwoPointImpl.intialize(1, 1),
-				TwoPointImpl.intialize(2, 2)
+				TwoPointImpl.intialize(2, 2),
+				TwoPointImpl.intialize(3, 4),
+				TwoPointImpl.intialize(2, 4)
 		);
 
 		long result = rectangleQuestion.largestRectangle(points);
