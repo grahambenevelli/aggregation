@@ -1,4 +1,4 @@
-package com.interview.aggregate;
+package com.interview.rectangle;
 
 import java.util.List;
 import java.util.Map;

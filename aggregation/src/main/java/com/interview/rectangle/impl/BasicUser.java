@@ -1,6 +1,6 @@
-package com.interview.aggregate.impl;
+package com.interview.rectangle.impl;
 
-import com.interview.aggregate.User;
+import com.interview.rectangle.User;
 
 public class BasicUser implements User {
 

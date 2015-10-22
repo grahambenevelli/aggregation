@@ -1,4 +1,4 @@
-package com.interview.aggregate;
+package com.interview.rectangle;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -12,8 +12,8 @@ import org.junit.Test;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Lists;
-import com.interview.aggregate.impl.BasicMetric;
-import com.interview.aggregate.impl.BasicUser;
+import com.interview.rectangle.impl.BasicMetric;
+import com.interview.rectangle.impl.BasicUser;
 
 public class AggregationQuestionTest {
 	

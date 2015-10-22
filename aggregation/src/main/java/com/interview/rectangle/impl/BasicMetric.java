@@ -1,6 +1,6 @@
-package com.interview.aggregate.impl;
+package com.interview.rectangle.impl;
 
-import com.interview.aggregate.Metric;
+import com.interview.rectangle.Metric;
 
 public class BasicMetric implements Metric {
 

@@ -1,13 +1,14 @@
-package com.interview.aggregate;
+package com.interview.rectangle;
+
+import static org.junit.Assert.assertEquals;
 
 import java.util.Set;
 
-import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
 import com.google.common.collect.Sets;
-import com.interview.aggregate.impl.TwoPointImpl;
+import com.interview.rectangle.impl.TwoPointImpl;
 
 public class RectangleQuestionTest {
 

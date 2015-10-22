@@ -1,9 +1,9 @@
-package com.interview.aggregate;
+package com.interview.rectangle;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Lists;
-import com.interview.aggregate.impl.BasicMetric;
-import com.interview.aggregate.impl.BasicUser;
+import com.interview.rectangle.impl.BasicMetric;
+import com.interview.rectangle.impl.BasicUser;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;

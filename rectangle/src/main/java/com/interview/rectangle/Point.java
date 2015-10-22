@@ -1,4 +1,4 @@
-package com.interview.aggregate;
+package com.interview.rectangle;
 
 public abstract class Point {
 

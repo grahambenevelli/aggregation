@@ -1,6 +1,6 @@
-package com.interview.aggregate.impl;
+package com.interview.rectangle.impl;
 
-import com.interview.aggregate.Point;
+import com.interview.rectangle.Point;
 
 public class TwoPointImpl extends Point {
 
